@@ -33,7 +33,7 @@ fn main() {
     let arrow_coords: Vec<Coord> = get_arrow_coords(5);
     let mut shots: Vec<Shot> = Vec::new();
 
-    // 2. For each coord in arrow_coords:
+    // For each coord in arrow_coords:
     //
     //   A. Call `coord.print_description()`
     //   B. Append the correct variant of `Shot` to the `shots` vector depending on the value of
